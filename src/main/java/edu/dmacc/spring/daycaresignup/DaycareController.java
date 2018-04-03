@@ -35,7 +35,7 @@ public class DaycareController {
 	}
 	
 
-	@RequestMapping(value = "/viewall")
+	@RequestMapping(value = "/viewAll")
 		public ModelAndView viewAll() {
 		ModelAndView modelAndView = new ModelAndView();
 		List<Children> allChildren = dao.getAllChildren();
